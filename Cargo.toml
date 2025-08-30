@@ -1,0 +1,11 @@
+[package]
+name = "s9_kafka_sink"
+version = "0.1.0"
+edition = "2024"
+authors = ["Alexander Silvennoinen <alex@silvennoinen.de>"]
+
+[lib]
+name = "s9_kafka_sink"
+path = "src/lib.rs"
+
+[dependencies]
